@@ -13,7 +13,7 @@ public class TabActivity extends AppCompatActivity {
     TabLayout tabLayout;
     ViewPager viewPager;
     MyPagerAdapter myPagerAdapter;
-    int[] images={R.drawable.ic_baseline_arrow_back_24,R.drawable.ic_baseline_arrow_back_24,R.drawable.ic_baseline_arrow_back_24};
+    int[] images={R.drawable.android,R.drawable.ic_baseline_arrow_back_24,R.drawable.ic_baseline_arrow_back_24};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

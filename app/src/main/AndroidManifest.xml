@@ -10,8 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ODSTest6">
         <activity
-            android:name=".viewPager.TabActivity"
+            android:name=".sliders.SliderActivity"
             android:exported="true" >
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,13 +20,19 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".viewPager2.Tab2Activity"
+            android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".viewPager.TabActivity"
+            android:exported="false"></activity>
+        <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".HomeActivity"
-            android:exported="false">
-
-        </activity>
+            android:exported="false" />
     </application>
 
 </manifest>
